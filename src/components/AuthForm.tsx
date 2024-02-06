@@ -19,7 +19,7 @@ export default function AuthForm({handleFormData, success, error, loading, authA
     return (
       <div className="container mx-auto w-[400px] grid gap-4">
         <div className="grid">
-          <label>Email</label>
+          <label className="text-white">Email</label>
           <input
             type="text"
             name="email"
@@ -30,7 +30,7 @@ export default function AuthForm({handleFormData, success, error, loading, authA
         </div>
 
         <div className="grid">
-          <label>Password</label>
+          <label className="text-white">Password</label>
           <input
             type="password"
             name="password"
