@@ -42,7 +42,7 @@ export default function AuthForm({handleFormData, success, error, loading, authA
 
         <div>
           <button
-            className="px-4 py-2 bg-blue-500 rounded cursor-pointer"
+            className="px-4 py-2 bg-blue-500 rounded cursor-pointer text-white"
             onClick={() => authAction()}
             disabled={loading}
           >
