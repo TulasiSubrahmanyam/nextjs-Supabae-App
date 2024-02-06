@@ -55,7 +55,7 @@ export default function AuthForm({handleFormData, success, error, loading, authA
 
           <Link
             href={authText === "Log in" ? "/signup" : "/login"}
-            className="hover:underline text-blue-300"
+            className="hover:underline text-white"
           >
             Click here to {authText === "Log in" ? "Sign up" : "Log in"}
           </Link>
